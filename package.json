@@ -1,0 +1,20 @@
+{
+  "name": "floatiesite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "browser-sync": "^2.13.0",
+    "cssnano": "^3.7.3",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

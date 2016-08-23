@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oracle Assistant</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+</head>
+<body>
+  <div class="main-section">
+    <div class="main-container">
+      <div class="brand">
+        <div class="logo">
+          <img class="responsive-img" src="assets/img/logo.png" alt="">
+        </div>
+        <h1 class="wordmark">Association for Computing Machinery</h1>
+        <p class="tagline">Florida International University</p>
+      </div>
+      <div class="slider-wrap">
+        <div class="screens-slides">
+          <img class="screen-img" src="assets/img/slides/slide1.jpg" alt="">
+          <img class="screen-img" src="assets/img/slides/slide2.jpg" alt="">
+          <img class="screen-img" src="assets/img/slides/slide3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.screens-slides').slick({
+         infinite: true,
+         dots: false,
+         fade: true
+      });
+    });
+  </script>
+</body>
+</html>
