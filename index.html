@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ACM FIU</title>
+  <title>ACM FIU | Association for Computing Machinery FIU</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -16,9 +16,96 @@
         <h1 class="wordmark">Association for Computing Machinery</h1>
         <p class="tagline">Florida International University</p>
       </div>
-      <div id="app"></div>
+
+      <ul class="tabs">
+        <li class="tab-link current" data-tab="tab-1">Events</li>
+        <!-- <li class="tab-link" data-tab="tab-2">About</li>
+        <li class="tab-link" data-tab="tab-3">Gallery</li> -->
+        <li class="tab-link"><a href="https://www.facebook.com/ACMatFIU/">Facebook</a</li>
+        <li class="tab-link"><a href="https://orgsync.com/9704/chapter">OrgSync</a></li>
+      </ul>
     </div>
+
+    <div id="tab-1" class="tab-content current">
+      <div class="main-container tab-upcoming">
+        <h2 class="section-header">Upcoming Events</h2>
+
+        <div class="events-wrap">
+          <div class="event">
+            <div class="date">
+              <div class="day">1</div>
+              <div class="month">Sep</div>
+            </div>
+            <div class="body">
+              <div class="title">
+                General Body Meeting
+              </div>
+              <div class="subtitle">
+                General Body Meeting and Social | <a href="#">RSVP</a>
+              </div>
+            </div>
+            <div class="time-location">
+              <div class="datetime">
+                <div class="time">4</div>
+                <div class="period">pm</div>
+              </div>
+              <div class="location">PG6 106</div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="date">
+              <div class="day">8</div>
+              <div class="month">Sep</div>
+            </div>
+            <div class="body">
+              <div class="title">
+                Workshop: Dev Tools
+              </div>
+              <div class="subtitle">
+                 Git Setup With Developer Tooling
+                 <!-- | <a href="#">RSVP</a> -->
+              </div>
+            </div>
+            <div class="time-location">
+              <div class="datetime">
+                <div class="time">4</div>
+                <div class="period">pm</div>
+              </div>
+              <div class="location">PG6 106</div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="date">
+              <div class="day">15</div>
+              <div class="month">Sep</div>
+            </div>
+            <div class="body">
+              <div class="title">
+                Talk: Internship Panel
+              </div>
+              <div class="subtitle">
+                Intenrship Panel and Social
+                <!-- | <a href="#">RSVP</a> -->
+              </div>
+            </div>
+            <div class="time-location">
+              <div class="datetime">
+                <div class="time">4</div>
+                <div class="period">pm</div>
+              </div>
+              <div class="location">PG6 106</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="tab-2" class="tab-content">
+    </div>
+    <div id="tab-3" class="tab-content">
+    </div>
+
   </div>
 </body>
-<script type="text/javascript" src="/dist/bundle.js"></script>
+<script type="text/javascript" src="assets/js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="assets/js/scripts.js"></script>
 </html>
