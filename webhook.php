@@ -5,6 +5,6 @@ $github_action = $posted_data["action"];
 
 echo json_encode($posted_data);
 
-shell_exec("cd /var/www/fiuacm.com/public/ && git pull origin master");
+shell_exec("cd /var/www/fiuacm.com/public/ && /usr/bin/git pull origin master");
 
 ?>
